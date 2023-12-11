@@ -188,7 +188,7 @@ jobs:
         uses: actions/upload-artifact@v3
         if: always()
         with:
-          name: simulator_log-${{ matrix.os }}
+          name: simulator_log
           path: simulator.log
 
       - name: Upload system Log
